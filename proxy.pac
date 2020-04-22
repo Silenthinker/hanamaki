@@ -4,7 +4,7 @@
 var proxy = "PROXY 127.0.0.1:8001; DIRECT;";
 
 var rules = [
-  "https://*.wikipedia.org/*",
+  "|https:\/\/*.wikipedia.org\/*",
   "|http:\/\/85.17.73.31\/",
   "||agnesb.fr",
   "||akiba-web.com",
